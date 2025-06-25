@@ -1,4 +1,4 @@
-// script.js
+// script.js gggg
 
 // Show a welcome message in the console
 console.log("Hello! Welcome to my website.");
