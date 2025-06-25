@@ -1,0 +1,68 @@
+name: 🐛 Bug Report
+description: Report a bug to help us improve
+title: "[Bug]: "
+labels: [bug]
+assignees:
+  - your-github-username
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill out the form below so we can fix it.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: What browser, OS, or device were you using?
+      placeholder: e.g. Chrome on Windows 11
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Tell us what went wrong.
+      placeholder: Describe the bug...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps to recreate the issue.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened instead?
+      placeholder: I expected...
+    validations:
+      required: false
+
+  - type: input
+    id: screenshot
+    attributes:
+      label: Screenshot URL (if any)
+      description: Optional — upload your screenshot and paste the link here.
+      placeholder: https://imgur.com/...
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this, you agree to follow our code of conduct.
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
