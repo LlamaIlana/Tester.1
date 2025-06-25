@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We pledge to make participation in our project and community a harassment-free experience for everyone.
+We pledge to make participation in our project and community a harassment-free experience for everyone.ddd
 
 ## Our Standards
 
