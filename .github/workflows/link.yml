@@ -1,0 +1,20 @@
+name: Basic Workflow
+
+# 🧲 When to run the workflow
+on:
+  push:              # Run when code is pushed
+    branches:
+      - main         # Only when pushing to main branch
+  pull_request:      # Also run when a PR is opened
+
+# 🧱 What jobs to run
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest  # Use latest Ubuntu virtual machine
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3   # Pulls down your repo code
+
+      - name: Say Hello
+        run: echo "👋 Hello from GitHub Actions!"
